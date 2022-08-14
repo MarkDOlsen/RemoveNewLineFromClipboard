@@ -14,8 +14,10 @@ def strip_newlines():
 root = tk.Tk()  # create the window object
 canvas = tk.Canvas(root, width=600, height=200)  # resize window
 canvas.grid(columnspan=3, rowspan=10)  # initialize grid in window
+# set text of window title bar
 root.title("Strip Newlines from Clipboard Text")
-# root.iconbitmap(r"title.bmp")  # change the title icon
+# remove icon from title bar of window
+root.wm_attributes('-toolwindow', 'True')
 
 #! INSTRUCTIONS
 instructions_text = "Click the button to strip line breaks from text currently on the clipboard."
