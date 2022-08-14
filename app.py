@@ -7,6 +7,7 @@ def strip_newlines():
     text = " ".join([word for word in text.split()])  # strip newlines
     pyperclip.copy(text)  # put text back on clipboard
 
+    text_box.delete(1.0, "end")  # clear old text
     text_box.insert(1.0, text)  # display the modified text
 
 
