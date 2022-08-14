@@ -1,6 +1,5 @@
-# Remove NewLine From Clipboard
+# Remove Line Braks from Clipboard Text
 Takes the text currently on the Windows clipboard and strips out newline characters.
-
 
 ## Why?
 I am frequently copying and pasting text from PDFs and the result is a jagged mess of linebreaks from the column structure
