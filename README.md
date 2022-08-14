@@ -1,2 +1,2 @@
-# RemoveNewLineFromClipboard
-Removes newline characters from text on the Windows clipboard.
+# Remove NewLine From Clipboard
+Takes the text currently on the Windows clipboard and strips out newline characters.
